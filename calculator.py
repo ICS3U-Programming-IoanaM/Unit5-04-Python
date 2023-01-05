@@ -71,7 +71,7 @@ def main():
             )
         else:
             print(
-                f"The result of {first_num_fl} {user_sign} {second_num_fl} is {int(result):.2f}."
+                f"The result of {first_num_fl} {user_sign} {second_num_fl} is {float(result):.2f}."
             )
 
 
