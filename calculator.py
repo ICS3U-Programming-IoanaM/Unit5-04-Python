@@ -66,9 +66,14 @@ def main():
 
         # displays the results
         if result == "invalid":
-            print(f"The result of {first_num_fl} {user_sign} {second_num_fl} is {result}.")
+            print(
+                f"The result of {first_num_fl} {user_sign} {second_num_fl} is {result}."
+            )
         else:
-            print(f"The result of {first_num_fl} {user_sign} {second_num_fl} is {int(result):.2f}.")
+            print(
+                f"The result of {first_num_fl} {user_sign} {second_num_fl} is {int(result):.2f}."
+            )
+
 
 if __name__ == "__main__":
     main()
